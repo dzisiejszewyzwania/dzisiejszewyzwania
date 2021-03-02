@@ -1,0 +1,135 @@
+body {
+background: rgb(162,63,63);
+background: linear-gradient(90deg, rgba(162,63,63,1) 0%, rgba(106,58,58,1) 100%);
+	font-family:helvetica;
+	text-align:center;
+	line-height: 3vh
+}
+#glowny {
+  font-size:1em;
+  min-width:480px;
+  max-width:100vw;
+  border-left:1px solid gold;
+  border-right:1px solid gold;
+}
+#naglowek {
+background: rgb(152,153,57);
+background: linear-gradient(90deg, rgba(152,153,57,1) 0%, rgba(156,153,12,1) 100%);
+  text-align:center;
+  font-size:2vw;
+  height: 10vh;
+  line-height: 8vh;
+  max-width:100vw;
+}
+#pasek
+{
+background: rgb(189,186,186);
+background: linear-gradient(90deg, rgba(189,186,186,1) 0%, rgba(252,246,246,1) 100%);
+background-repeat:no-repeat;
+height:3vh;
+max-width:100vw;
+padding-left:1vw;
+padding-right:1vw;
+text-align:center;
+}
+	#pasek a
+	{
+	font-size:1vw;
+	font-weight:bold;
+	line-height:3vh;
+	color:black;
+	margin-left:3vw;
+	margin-right:3vw;
+	text-decoration:none;
+	width:100vw;
+	}
+
+#lewa {
+  float:left;
+  width:25%;
+  font-size:1em;
+  line-height:em;
+background: rgb(69,167,167);
+background: linear-gradient(90deg, rgba(69,167,167,1) 0%, rgba(20,151,157,1) 100%);
+height:1600px;
+}
+
+#lewa p {
+  border:1px solid #615d04;
+  border-left:none;
+  margin:15px 0;
+  padding:15px;
+}
+
+#lewa a {
+	color:#6e1616;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+#srodek {
+  float:left;
+  width:50%;
+  font-size:1em;
+  line-height:1.5em;
+background: rgb(94,166,70);
+background: linear-gradient(90deg, rgba(94,166,70,1) 0%, rgba(30,142,65,1) 100%);
+height:1600px;
+  text-align:left;
+}
+
+#srodek p {
+  margin:15px 0;
+  padding:15px;
+}
+#srodek h1 {
+	text-align:center;
+	line-height: 150%
+}
+
+#prawa {
+  float:left;
+  width:25%;
+  font-size:1em;
+  line-height:0em;
+background: rgb(148,72,198);
+background: linear-gradient(90deg, rgba(148,72,198,1) 0%, rgba(175,16,165,1) 100%);
+height:1600px;
+}
+
+#prawa p {
+  border:1px solid gold;
+  border-right:none;
+  margin:15px 0;
+  padding:15px;
+}
+
+#prawa a img {
+	width:100%;
+	height:auto;
+}
+#stopka {
+  clear:both;
+background: rgb(152,153,57);
+background: linear-gradient(90deg, rgba(152,153,57,1) 0%, rgba(156,153,12,1) 100%);
+  text-align:center;
+  font-size:1.4em;
+  line-heiht:3em;
+  height:4vh;
+}
+
+@media all and (max-width:769px) {
+  #glowny {
+    font-size:1em;
+  }
+
+  #lewa, #srodek, #prawa, #pasek {
+    float:none;
+    width:auto;
+    margin:15px;
+  }
+
+  #lewa p, #prawa p {
+    border:1px solid gold;
+  }
+}
